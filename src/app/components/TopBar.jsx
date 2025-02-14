@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Portrait from "../assets/portrait.jpg";
+import Portrait from "../assets/portrait-square.png";
 
 const TopBar = () => {
   return (
@@ -18,12 +18,13 @@ const TopBar = () => {
           </p>
         </div>
         <div className="col-span-5">
-          <div className="rounded-full bg-[#2a2a2a] w-500 h-400 relative">
+          <div className="rounded-full bg-[#2a2a2a] w-[310px] h-[310px] relative">
             <Image
               src={Portrait}
               width={300}
-              height={500}
+              height={300}
               alt="Portrait of Manzi"
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full"
             />
           </div>
         </div>

@@ -1,0 +1,32 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+self["webpackHotUpdate_N_E"]("app/page",{
+
+/***/ "(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22%2FUsers%2Fcommypooty%2FDocuments%2FDev%2FProjects%2Fportfolio%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fimage-component.js%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22%2FUsers%2Fcommypooty%2FDocuments%2FDev%2FProjects%2Fportfolio%2Fsrc%2Fapp%2Fassets%2Fportrait-square.png%22%2C%22ids%22%3A%5B%22*%22%5D%7D&server=false!":
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22%2FUsers%2Fcommypooty%2FDocuments%2FDev%2FProjects%2Fportfolio%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fimage-component.js%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22%2FUsers%2Fcommypooty%2FDocuments%2FDev%2FProjects%2Fportfolio%2Fsrc%2Fapp%2Fassets%2Fportrait-square.png%22%2C%22ids%22%3A%5B%22*%22%5D%7D&server=false! ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+eval(__webpack_require__.ts("Promise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! ./node_modules/next/dist/client/image-component.js */ \"(app-pages-browser)/./node_modules/next/dist/client/image-component.js\", 23));\n;\nPromise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./src/app/assets/portrait-square.png */ \"(app-pages-browser)/./src/app/assets/portrait-square.png\"));\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1wYWdlcy1icm93c2VyKS8uL25vZGVfbW9kdWxlcy9uZXh0L2Rpc3QvYnVpbGQvd2VicGFjay9sb2FkZXJzL25leHQtZmxpZ2h0LWNsaWVudC1lbnRyeS1sb2FkZXIuanM/bW9kdWxlcz0lN0IlMjJyZXF1ZXN0JTIyJTNBJTIyJTJGVXNlcnMlMkZjb21teXBvb3R5JTJGRG9jdW1lbnRzJTJGRGV2JTJGUHJvamVjdHMlMkZwb3J0Zm9saW8lMkZub2RlX21vZHVsZXMlMkZuZXh0JTJGZGlzdCUyRmNsaWVudCUyRmltYWdlLWNvbXBvbmVudC5qcyUyMiUyQyUyMmlkcyUyMiUzQSU1QiU1RCU3RCZtb2R1bGVzPSU3QiUyMnJlcXVlc3QlMjIlM0ElMjIlMkZVc2VycyUyRmNvbW15cG9vdHklMkZEb2N1bWVudHMlMkZEZXYlMkZQcm9qZWN0cyUyRnBvcnRmb2xpbyUyRnNyYyUyRmFwcCUyRmFzc2V0cyUyRnBvcnRyYWl0LXNxdWFyZS5wbmclMjIlMkMlMjJpZHMlMjIlM0ElNUIlMjIqJTIyJTVEJTdEJnNlcnZlcj1mYWxzZSEiLCJtYXBwaW5ncyI6IkFBQUEsb09BQXdJO0FBQ3hJO0FBQ0Esa01BQTBIIiwic291cmNlcyI6WyIiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0KC8qIHdlYnBhY2tNb2RlOiBcImVhZ2VyXCIgKi8gXCIvVXNlcnMvY29tbXlwb290eS9Eb2N1bWVudHMvRGV2L1Byb2plY3RzL3BvcnRmb2xpby9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2NsaWVudC9pbWFnZS1jb21wb25lbnQuanNcIik7XG47XG5pbXBvcnQoLyogd2VicGFja01vZGU6IFwiZWFnZXJcIiAqLyBcIi9Vc2Vycy9jb21teXBvb3R5L0RvY3VtZW50cy9EZXYvUHJvamVjdHMvcG9ydGZvbGlvL3NyYy9hcHAvYXNzZXRzL3BvcnRyYWl0LXNxdWFyZS5wbmdcIik7XG4iXSwibmFtZXMiOltdLCJpZ25vcmVMaXN0IjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22%2FUsers%2Fcommypooty%2FDocuments%2FDev%2FProjects%2Fportfolio%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fimage-component.js%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22%2FUsers%2Fcommypooty%2FDocuments%2FDev%2FProjects%2Fportfolio%2Fsrc%2Fapp%2Fassets%2Fportrait-square.png%22%2C%22ids%22%3A%5B%22*%22%5D%7D&server=false!\n"));
+
+/***/ }),
+
+/***/ "(app-pages-browser)/./src/app/assets/portrait-square.png":
+/*!********************************************!*\
+  !*** ./src/app/assets/portrait-square.png ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval(__webpack_require__.ts("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\"src\":\"/_next/static/media/portrait-square.6dfb6d86.png\",\"height\":1412,\"width\":1412,\"blurDataURL\":\"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fportrait-square.6dfb6d86.png&w=8&q=70\",\"blurWidth\":8,\"blurHeight\":8});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1wYWdlcy1icm93c2VyKS8uL3NyYy9hcHAvYXNzZXRzL3BvcnRyYWl0LXNxdWFyZS5wbmciLCJtYXBwaW5ncyI6Ijs7OztBQUFBLGlFQUFlLENBQUMsb05BQW9OIiwic291cmNlcyI6WyIvVXNlcnMvY29tbXlwb290eS9Eb2N1bWVudHMvRGV2L1Byb2plY3RzL3BvcnRmb2xpby9zcmMvYXBwL2Fzc2V0cy9wb3J0cmFpdC1zcXVhcmUucG5nIl0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBkZWZhdWx0IHtcInNyY1wiOlwiL19uZXh0L3N0YXRpYy9tZWRpYS9wb3J0cmFpdC1zcXVhcmUuNmRmYjZkODYucG5nXCIsXCJoZWlnaHRcIjoxNDEyLFwid2lkdGhcIjoxNDEyLFwiYmx1ckRhdGFVUkxcIjpcIi9fbmV4dC9pbWFnZT91cmw9JTJGX25leHQlMkZzdGF0aWMlMkZtZWRpYSUyRnBvcnRyYWl0LXNxdWFyZS42ZGZiNmQ4Ni5wbmcmdz04JnE9NzBcIixcImJsdXJXaWR0aFwiOjgsXCJibHVySGVpZ2h0XCI6OH07Il0sIm5hbWVzIjpbXSwiaWdub3JlTGlzdCI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(app-pages-browser)/./src/app/assets/portrait-square.png\n"));
+
+/***/ })
+
+});
