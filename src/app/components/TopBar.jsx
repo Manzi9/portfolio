@@ -1,17 +1,24 @@
+"use client";
 import Image from "next/image";
 import React from "react";
 import Portrait from "../assets/portrait-square.png";
+import { TypeAnimation } from "react-type-animation";
 
 const TopBar = () => {
   return (
     <section>
       <div className="grid grid-cols-1 lg:grid-cols-12">
         <div className="place-self-center col-span-7 text-center sm:text-left">
-          <h1 className="text-white mb-4 text-5xl sm:text-5xl lg:text-7xl font from-neutral-600 font-semibold ">
+          <h1 className="text-white mb-4 text-5xl sm:text-3xl lg:text-5xl font from-neutral-600 font-semibold ">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-teal-500  ">
               Hey, I'm
             </span>{" "}
-            Manzi!
+            <TypeAnimation
+              sequence={["Manzi", 2000, "a Software Engineer", 2000]}
+              wrapper="span"
+              speed={50}
+              repeat={Infinity}
+            />
           </h1>
           <p className="text-[#cecece] text-base sm:text-lg lg:text-xl mb-6">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
