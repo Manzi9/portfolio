@@ -17,8 +17,12 @@ const TopBar = () => {
             nemo.
           </p>
           <div>
-            <button>Contact</button>
-            <button>Contact</button>
+            <button className="px-6 py-3 rounded-full mr-4 bg-transparent hover:bg-slate-800 text-white border border-white mt-3">
+              Email Me{" "}
+            </button>
+            <button className="px-6 py-3 rounded-full mr-4 bg-white hover:bg-slate-200 text-black">
+              View CV
+            </button>
           </div>
         </div>
         <div className="place-self-center col-span-5 mt-4 lg:mt-0">
