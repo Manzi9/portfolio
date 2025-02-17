@@ -26,13 +26,13 @@ const TopBar = () => {
           </div>
         </div>
         <div className="place-self-center col-span-5 mt-4 lg:mt-0">
-          <div className="rounded-full bg-[#2a2a2a] w-[310px] h-[310px] relative lg:w-[500px] lg:h-[500px]  ">
+          <div className="rounded-full bg-[#727272] w-[310px] h-[310px] relative lg:w-[460px] lg:h-[460px]  ">
             <Image
               src={Portrait}
               width={300}
               height={300}
               alt="Portrait of Manzi"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full"
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full lg:w-[450px] lg:h-[450px]"
             />
           </div>
         </div>
