@@ -1,4 +1,6 @@
 import React from "react";
+import Image from "next/image";
+import Logo from "../fav-icons/android-chrome-192x192.png";
 
 const NavBar = () => {
   return (
@@ -10,9 +12,7 @@ const NavBar = () => {
         >
           LOGO
         </Link> */}
-        <a href="#" className="text-2xl md:text-5xl text-white font-semibold">
-          LOGO{" "}
-        </a>
+        <Image src={Logo} width={50} height={50} alt="M Logo" />
         <div className="menu"></div>
       </div>
     </nav>
