@@ -20,11 +20,26 @@ const TopBar = () => {
               repeat={Infinity}
             />
           </h1>
+          {/* TODO */}
           <p className="text-[#cecece] text-base sm:text-lg lg:text-xl mb-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-            sunt nulla, maiores a iusto ad rem ab non illo repellat,
-            consequuntur odio soluta. Vel enim laboriosam ducimus commodi itaque
-            nemo.
+            🚀 Full-Stack Software Engineer passionate about crafting innovative
+            and impactful web applications. Currently working with a diverse set
+            of technologies, including JavaScript (ES6+), React, Node.js, and
+            more. 👨‍💻 Tech Stack: I have experience using React (hooks, context
+            API, Material UI, Redux), Node.js (Vanilla & Express), and databases
+            (SQL and MongoDB ). Proficient in REST APIs, OAuth, and real-time
+            communication with WebSockets and Socket.IO. Experienced in testing
+            with Vitest, and Vite. 📈 DevOps: Proficient in Docker, Kubernetes,
+            Vercel (including CI/CD), serverless architectures (including
+            Netlify), cPanel, Apache, and XAMPP. 🎨 Front-End Development:
+            Proficient in HTML5 and CSS3, focusing on responsive design,
+            Flexbox, CSS Grid, preprocessors (SASS, LESS), and CSS frameworks.
+            Committed to creating accessible and SEO-friendly web pages. 🌱
+            Passion and Drive: Enthusiastic about continuously learning and
+            growing in the tech industry. Enjoy solving coding challenges and
+            turning innovative ideas into reality. Excited to bring my
+            problem-solving skills and passion for technology to a forward
+            thinking team!
           </p>
           <div>
             <button className=" w-full sm:w-fit  max-w-48 bg-gradient-to-br from-blue-900 to-teal-500 to- hover:bg-slate-200 text-white  px-1 py-1 rounded-full mr-4">

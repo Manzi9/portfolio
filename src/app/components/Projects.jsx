@@ -3,7 +3,7 @@ import Image from "next/image";
 import holidoughImg from "@/app/assets/holidough-sacha-home.png";
 import autotraderImg from "@/app/assets/autotrader-home.png";
 import weatherImg from "@/app/assets/weather-app-js.png";
-
+//TODO
 const Projects = () => {
   const projects = [
     {
