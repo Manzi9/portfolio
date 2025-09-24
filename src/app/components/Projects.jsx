@@ -1,22 +1,26 @@
 import React from "react";
+import Image from "next/image";
+import holidoughImg from "@/app/assets/holidough-sacha-home.png";
+import autotraderImg from "@/app/assets/autotrader-home.png";
+import weatherImg from "@/app/assets/weather-app-js.png";
 
 const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
+      title: "HoliDough",
       description:
-        "A full-stack e-commerce application built with React, Node.js, and MongoDB. Features include user authentication, product management, and payment integration.",
+        "A full stack holiday budgeting app built with React, Node.js, and MongoDB.",
       technologies: ["React", "Node.js", "MongoDB", "Express", "Stripe"],
-      image: "/project1.jpg", // You can add project images to public folder
+      image: holidoughImg,
       github: "https://github.com/yourusername/project1",
       live: "https://project1-demo.com",
     },
     {
       id: 2,
-      title: "Task Management App",
+      title: "Numberplate Search",
       description:
-        "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
+        "A numberplate search app built with React, Node.js, and MongoDB.",
       technologies: [
         "React",
         "TypeScript",
@@ -24,7 +28,7 @@ const Projects = () => {
         "Node.js",
         "PostgreSQL",
       ],
-      image: "/project2.jpg",
+      image: autotraderImg,
       github: "https://github.com/yourusername/project2",
       live: "https://project2-demo.com",
     },
@@ -34,7 +38,7 @@ const Projects = () => {
       description:
         "A weather application that displays current weather conditions and forecasts using external APIs with interactive charts and maps.",
       technologies: ["React", "Chart.js", "OpenWeather API", "Tailwind CSS"],
-      image: "/project3.jpg",
+      image: weatherImg,
       github: "https://github.com/yourusername/project3",
       live: "https://project3-demo.com",
     },
@@ -44,7 +48,7 @@ const Projects = () => {
       description:
         "A modern, responsive portfolio website built with Next.js and Tailwind CSS, featuring smooth animations and optimal performance.",
       technologies: ["Next.js", "Tailwind CSS", "Framer Motion", "TypeScript"],
-      image: "/project4.jpg",
+      image: autotraderImg,
       github: "https://github.com/yourusername/project4",
       live: "https://project4-demo.com",
     },
@@ -63,24 +67,16 @@ const Projects = () => {
               key={project.id}
               className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 group"
             >
-              {/* Project Image Placeholder */}
-              <div className="w-full h-48 bg-gradient-to-br from-purple-500/20 to-blue-500/20 rounded-xl mb-6 flex items-center justify-center">
-                <div className="text-white/60 text-center">
-                  <svg
-                    className="w-16 h-16 mx-auto mb-2"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={1}
-                      d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
-                    />
-                  </svg>
-                  <p className="text-sm">Project Image</p>
-                </div>
+              {/* Project Image */}
+              <div className="w-full h-48 rounded-xl mb-6 overflow-hidden relative">
+                <Image
+                  src={project.image}
+                  alt={`${project.title} screenshot`}
+                  fill
+                  className="object-cover"
+                  sizes="(min-width: 1024px) 50vw, (min-width: 768px) 50vw, 100vw"
+                  priority={project.id === 1}
+                />
               </div>
 
               {/* Project Content */}
